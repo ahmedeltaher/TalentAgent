@@ -7,14 +7,14 @@ from datetime import datetime
 import weaviate
 from weaviate.classes.init import Auth
 from weaviate.classes.config import Configure, Property, DataType
-from simple_cv_parser import SimpleCVParser
+from advanced_cv_parser import AdvancedCVParser
 
 
 class EnhancedCVService:
     """Enhanced CV service with caching, embeddings, and vector database integration"""
     
     def __init__(self):
-        self.parser = SimpleCVParser()
+        self.parser = AdvancedCVParser()
         self.cache_dir = "cv_cache"
         self.weaviate_url = os.getenv("WEAVIATE_URL", "http://localhost:8080")
         
