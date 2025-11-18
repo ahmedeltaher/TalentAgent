@@ -1,7 +1,5 @@
 # Agentic AI Recruitment System
 
-## Feature 1: Automated CV Parsing & Ranking
-
 This implementation includes:
 - **Backend (NestJS)**: Core API and business logic
 - **AI Service (FastAPI)**: CV parsing and ranking using LangChain + Ollama
@@ -79,7 +77,7 @@ npm run dev
 - Weaviate integration for semantic CV search
 - Fast candidate retrieval based on job descriptions
 
-### 4. Modern UI
+### 4. UI
 - Drag & drop CV upload
 - Real-time parsing status
 - Candidate ranking dashboard
